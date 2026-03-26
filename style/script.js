@@ -1,6 +1,6 @@
 const agePopup = document.getElementById("guess-age-popup");
 const ageButtons = document.querySelectorAll(".age-btn");
-const correctAge = "17";
+const correctAge = "19";
 
 setTimeout(() => {
   agePopup.classList.add("show");
@@ -12,16 +12,16 @@ ageButtons.forEach(btn => {
     if (selected === correctAge) {
       agePopup.innerHTML = `
         <center><img src="https://i.pinimg.com/736x/47/c2/49/47c2493fecd4a231eddc88b69991cc27.jpg" alt="Congrats" style="width: 140px;"/></center>
-        <h2>Giỏi! Trung thực 😎</h2>
+        <h2>Đún ròii</h2>
         <p>Hỏi chơi cho zui thôi bà 😏</p>
-        <button class="close-btn" onclick="agePopup.classList.remove('show')">Zui zẻ không quạo</button>
+        <button class="close-btn" onclick="agePopup.classList.remove('show')"> Tiếp </button>
       `;
     } else {
       agePopup.innerHTML = `
         <center><img src="https://i.pinimg.com/736x/81/f1/74/81f17472464b344c13286ef3ef2ab794.jpg" alt="Wrong" style="width: 120px;"/></center>
-        <h2>Ủa là sao dị bà? 😤</h2>
-        <p>Cho mi chọn lại 1 lần nữa đó!!!</p>
-        <button class="close-btn" onclick="location.reload()">Đoán lại cho bố 🫤</button>
+        <h2> ??? </h2>
+        <p>Cho b dà chọn lại 1 lần nữa đó!!!</p>
+        <button class="close-btn" onclick="location.reload()">Chọn lại đê!!</button>
       `;
     }
   });
@@ -72,11 +72,11 @@ const musicBtn = document.getElementById("music-btn");
   });
 
   const messages = [
-    "Sinh nhật dui dẻ nha bà, quý lắm mới chúc á nha bà! 💝🎂.",
-    "Mong sao tuổi mới bà sẽ mang đến thật nhiều hạnh phúc và sức khỏe dồi dào! 🎉✨.",
-    "Chúc sao cho bà luôn thành công nữa nè, làm gì cũng thuận lợi 🥰🍀.",
-    "Thêm một tuổi mới, chúc sao cho bà luôn dui dẻ bên bạn bè, gia đình và người bà luôn yêu thương 🤗💞.",
-    "Hãy tận hưởng ngày đặc biệt này với thật nhiều niềm vui và tiếng cười nhé! ❤️🎈"
+    "Tuổi mới chúc ly sinh nhật dui dẻ nha, quý lắm mới chúc á chèn 😏.",
+    "Mong tuổi mới ly sẽ có thật nhiều hạnh phúc và sức khỏe dồi dào! 🎉✨.",
+    "Chúc sao cho ly luôn thành công nữa nè, làm gì cũng thuận lợi 🥰🍀.",
+    "Thêm một tuổi mới, chúc sao cho ly luôn dui dẻ bên bạn bè, gia đình và người bà luôn yêu thương 🤗.",
+    "Hãy tận hưởng ngày đặc biệt này với thật nhiều niềm vui và tiếng cười nhá!! ,À chú b dà thi toán cc điểm cao =))) "
   ];
   const typingTextElem = document.getElementById("typing-text");
   let msgIndex = 0;
