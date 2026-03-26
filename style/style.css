@@ -6,7 +6,7 @@
 body, html {
   height: 100%;
   font-family: 'Poppins', sans-serif;
-  background: linear-gradient(135deg, #fce4ec, #fff8e1);
+  background: #F0F8FF;
   overflow-x: hidden;
   transition: background 0.5s;
 }
@@ -20,7 +20,7 @@ body.dark {
   padding: 1rem;
   position: relative;
   text-align: center;
-  color: #d81b60;
+  color: #86C5D8;
 }
 body.dark .container {
   color: #ff80ab;
@@ -41,10 +41,10 @@ h1 {
   width: 300px;
   height: 300px;
   border-radius: 50%;
-  box-shadow: 0 10px 25px rgba(216,27,96,0.5);
+  box-shadow: 0 10px 25px rgba(134,197,216,0.5);
   object-fit: cover;
   margin-bottom: 1.5rem;
-  border: 6px solid #ff80ab;
+  border: 6px solid #86C5D8;
   transition: border-color 0.5s;
 }
 body.dark .avatar {
@@ -66,7 +66,7 @@ body.dark .avatar {
   line-height: 1.6;
   margin-bottom: 2rem;
   min-height: 90px;
-  color: #880e4f;
+  color: #86C5D8;
 }
 body.dark #typing-text {
   color: #ffc1e3;
@@ -79,15 +79,15 @@ body.dark #typing-text {
   border: none;
   border-radius: 30px;
   cursor: pointer;
-  background: #d81b60;
+  background: #86C5D8;
   color: white;
   margin: 0 12px;
-  box-shadow: 0 6px 15px rgba(216,27,96,0.5);
+  box-shadow: 0 6px 15px rgba(134,197,216,0.5);
   transition: background 0.3s, box-shadow 0.3s;
 }
 .btn:hover {
-  background: #e91e63;
-  box-shadow: 0 8px 22px rgba(233,30,99,0.7);
+  background: #6eb3c7;
+  box-shadow: 0 8px 22px rgba(134,197,216,0.7);
 }
 body.dark .btn {
   background: #ff4081;
@@ -102,7 +102,7 @@ body.dark .btn:hover {
   position: fixed;
   top: 18px;
   left: 18px;
-  background: #d81b60;
+  background: #86C5D8;
   color: white;
   border-radius: 25px;
   border: none;
@@ -110,11 +110,11 @@ body.dark .btn:hover {
   font-size: 1rem;
   cursor: pointer;
   z-index: 20;
-  box-shadow: 0 5px 15px rgba(216,27,96,0.7);
+  box-shadow: 0 5px 15px rgba(134,197,216,0.7);
   transition: background 0.3s;
 }
 #mode-toggle:hover {
-  background: #e91e63;
+  background: #6eb3c7;
 }
 body.dark #mode-toggle {
   background: #ff4081;
@@ -128,7 +128,7 @@ body.dark #mode-toggle:hover {
   position: fixed;
   top: 18px;
   right: 18px;
-  background: #d81b60;
+  background: #86C5D8;
   color: white;
   border-radius: 25px;
   border: none;
@@ -136,11 +136,11 @@ body.dark #mode-toggle:hover {
   font-size: 1.2rem;
   cursor: pointer;
   z-index: 20;
-  box-shadow: 0 5px 15px rgba(216,27,96,0.7);
+  box-shadow: 0 5px 15px rgba(134,197,216,0.7);
   transition: background 0.3s;
 }
 #music-btn:hover {
-  background: #e91e63;
+  background: #6eb3c7;
 }
 body.dark #music-btn {
   background: #ff4081;
@@ -185,7 +185,7 @@ body.dark .popup {
   font-family: 'Pacifico', cursive;
   font-size: 2rem;
   margin-bottom: 15px;
-  color: #d81b60;
+  color: #86C5D8;
 }
 body.dark .popup h2 {
   color: #ff80ab;
@@ -201,17 +201,17 @@ body.dark .popup p {
 .close-btn {
   margin-top: 25px;
   padding: 12px 25px;
-  background: #d81b60;
+  background: #86C5D8;
   color: white;
   border-radius: 25px;
   border: none;
   font-weight: 600;
   cursor: pointer;
-  box-shadow: 0 6px 15px rgba(216,27,96,0.5);
+  box-shadow: 0 6px 15px rgba(134,197,216,0.5);
   transition: background 0.3s;
 }
 .close-btn:hover {
-  background: #e91e63;
+  background: #6eb3c7;
 }
 body.dark .close-btn {
   background: #ff4081;
