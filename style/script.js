@@ -76,7 +76,7 @@ const musicBtn = document.getElementById("music-btn");
     "Mong tuổi mới ly sẽ có thật nhiều hạnh phúc và sức khỏe dồi dào! 🎉✨.",
     "Chúc sao cho ly luôn thành công nữa nè, làm gì cũng thuận lợi 🥰🍀.",
     "Thêm một tuổi mới, chúc sao cho ly luôn dui dẻ bên bạn bè, gia đình và người bà luôn yêu thương 🤗.",
-    "Hãy tận hưởng ngày đặc biệt này với thật nhiều niềm vui và tiếng cười nhá!! ,À chú b dà thi toán cc điểm cao =))) "
+    "Hãy tận hưởng ngày đặc biệt này với thật nhiều niềm vui và tiếng cười nhá!! ,À chúc b dà thi toán cao cấp và các môn khác điểm cao =))) "
   ];
   const typingTextElem = document.getElementById("typing-text");
   let msgIndex = 0;
